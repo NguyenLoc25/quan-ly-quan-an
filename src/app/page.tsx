@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
             </code>
             .
           </li>
+          <Button >Click me</Button>
           <li className="tracking-[-.01em]">
             Save and see your changes instantly.
           </li>
