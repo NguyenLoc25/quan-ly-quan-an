@@ -90,7 +90,7 @@ const request = async <Response>(
   }
   // Interceptor là nời chúng ta xử lý request và response trước khi trả về cho phía component
   if (!res.ok) {
-    if (res.status === ENTITY_ERROR_STATUS) {
+    if (res.status === ENTITY_ERROR_STATUS) { 
       throw new EntityError(
         data as {
           status: 422
